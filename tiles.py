@@ -33,7 +33,7 @@ class rgb:
 screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
 def font(font_name,size):
-    return pygame.font.SysFont(font_name, size)
+    return pygame.font.SysFont(font_name, int(size))
 def label(font_name,size,text,rgb,pos,center=False):
     global screen
     lbl = font(font_name,size).render(text, 1, rgb)

@@ -3,7 +3,7 @@ import pygame
 pygame.init()
 pygame.mixer.init()
 FPS = 60
-size=width, height=800, 1000
+size=width, height=450, 650
 screen_w = width
 screen_h = height
 half_w = screen_w/2
